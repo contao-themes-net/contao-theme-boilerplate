@@ -1,6 +1,10 @@
 # contao-theme-boilerplate
 this is a boilerplate to load themes via contao manager or composer in contao cms
 
+license
+
+pdir contao theme licence -> see LICENSE file for more informations
+
 ## compatible
 compatible with Contao 4.4.x
 
