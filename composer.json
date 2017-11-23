@@ -31,7 +31,7 @@
       "ContaoThemesNet\\THEME_NAMEThemeBundle\\": "src/"
     },
     "classmap": [
-      "src/Resources/contao/"
+      "src/ContaoThemesNet/THEME_NAMEThemeBundle/Resources/contao/"
     ]
   },
   "extra": {
