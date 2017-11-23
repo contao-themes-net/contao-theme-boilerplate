@@ -22,9 +22,9 @@ Replace THEME_NAME in following files
 
 ## structure
 
-./src/ContaoThemesNet/[THEME_NAME]ThemeBundle/Resources
-    config = symlink to web (Images, JS, CSS etc.)
-    public = Symfony config (services etc.)
-    views = Templates for Twig
-    contao = contao stuff (config, dca etc.)
+    ./src/ContaoThemesNet/[THEME_NAME]ThemeBundle/Resources
+        config = symlink to web (Images, JS, CSS etc.)
+        public = Symfony config (services etc.)
+        views = Templates for Twig
+        contao = contao stuff (config, dca etc.)
 
