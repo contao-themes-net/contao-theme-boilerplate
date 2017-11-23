@@ -33,8 +33,8 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(THEME_NAMEBundle::class)
-                ->setLoadAfter([THEME_NAMEBundle::class])
+            BundleConfig::create(THEME_NAMEThemeBundle::class)
+                ->setLoadAfter([THEME_NAMEThemeBundle::class])
         ];
     }
 }
