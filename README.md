@@ -32,3 +32,31 @@ Replace THEME_NAME in following files
         views = Templates for Twig
         contao = contao stuff (config, dca etc.)
 
+    # Weitere Beispiele für Verzeichnisse in ./src/
+    Typ     	                    Verzeichnis
+    Commands	                    Command/
+    Controllers	                    Controller/
+    Service Container Extensions	DependencyInjection/
+    Event Listeners	                EventListener/
+    Model Klassen	                Model/
+    Übersetzungen (Symfony)	        Resources/translations/
+    Übersetzungen (Contao)	        Resources/contao/languages/
+    Templates (.html5)              Resources/contao/templates/
+    Unit-Tests	                    Tests/
+
+## composer.json
+
+    Key	Wert
+    name	        contao-themes-net/[theme-name]-bundle (<vendor>/<name>-bundle)
+    description	    Kurze Beschreibung
+    type	        contao-bundle
+    license	        "pdir contao theme licence" (auch andere Lizenzen möglich)
+    require	        Abhängigkeiten
+    require-dev     Abhängigkeiten (nur dev-Mode)
+    autoload	    PSR-4 (Standard)
+
+## dependencies
+
+- [contao theme helper bundle](https://github.com/pdir/contao-theme-helper-bundle) by [pdir](https://pdir.de/ "Webdesign für Dresden")
+
+## install
